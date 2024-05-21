@@ -1,0 +1,335 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.owl-dots{
+    padding: 0px !important;
+    width: 0px !important;
+    height: 0px !important;
+}
+
+/* .content .first .image .main-match .main-box p{
+    font-size: 0.8vw;
+} */
+
+@media (min-width: 320px) and (max-width: 480px){
+    /* .content .first .image .main-match .main-box p{
+        font-size: 1.5vw;
+    } */
+    header{
+        width: 100%;
+        padding: 0px 10px;
+    }
+    header nav{
+        width: 100%;
+    }
+    header nav .logo{
+        width: 80%;
+    }
+    header nav .bars{
+        display: block;
+    }
+    header nav .menu{
+        z-index: 100;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: #000000;
+        position: fixed;
+        padding: 0%;
+        transition: all 0.1s;
+        overflow-x: hidden;
+    }
+    header nav .menu li{
+        display: block;
+        padding: 10%;
+        width: 100%;
+        border-top: 1px solid #3366;
+    }
+    header nav .menu .line{
+        display: none;
+    }
+    header nav .close{
+        top: 10%;
+        right: 0%;
+        z-index: 200;
+    }
+    header nav .btn{
+        background-color: antiquewhite;
+        width: 100%;
+        top: 100%;
+        left: 0%;
+        padding: 5px 20%;
+        position: absolute;
+        display: inline-block;
+    }
+    header nav .btn > div{
+        width: 47%;
+        margin: 0px 2px;
+        float: left;
+        font-size: 12px;
+        padding: 7px;
+        text-align: center;
+    }
+
+    .content{
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .content .first{
+        margin-top: 14%;
+    }
+    .content h1{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .content .btn{
+        width: 100%;
+        padding: 10% 0% 0% 0%;
+        display: inline-block;
+    }
+    .content h2{
+        padding: 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .content .adr{
+        width: 100%;
+        display: inline-block;
+    }
+
+    footer{
+        width: 100%;
+    }
+    footer .main{
+        width: 100%;
+        padding: 0px 10px;
+    }
+    footer .main .logo{
+        width: 80%;
+    }
+    footer .main ul{
+        margin-top: 5%;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    /* .content .first .image .main-match .main-box p{
+        font-size: 1.5vw;
+    } */
+    header{
+        width: 100%;
+        padding: 0px 10px;
+    }
+    header nav{
+        width: 100%;
+    }
+    header nav .logo{
+        width: 50%;
+    }
+    header nav .bars{
+        display: block;
+    }
+    header nav .bars i{
+        font-size: 30px;
+    }
+    header nav .menu{
+        z-index: 100;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: #000000;
+        position: fixed;
+        padding: 0%;
+        transition: all 0.1s;
+        overflow-x: hidden;
+    }
+    header nav .menu li{
+        display: block;
+        padding: 10%;
+        width: 100%;
+        border-top: 1px solid #3366;
+    }
+    header nav .menu .line{
+        display: none;
+    }
+    header nav .close{
+        top: 10%;
+        right: 0%;
+        z-index: 200;
+    }
+    header nav .btn{
+        background-color: antiquewhite;
+        width: 100%;
+        top: 100%;
+        left: 0%;
+        padding: 15px 20%;
+        position: absolute;
+        display: inline-block;
+    }
+    header nav .btn > div{
+        width: 47%;
+        margin: 0px 2px;
+        float: left;
+        font-size: 15px;
+        padding: 12px;
+        text-align: center;
+    }
+
+    .content{
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .content .first{
+        margin-top: 16%;
+    }
+    .content h1{
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    .content h2{
+        padding: 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .content .adr{
+        width: 100%;
+        display: inline-block;
+    }
+
+    footer{
+        width: 100%;
+    }
+    footer .main{
+        width: 100%;
+        padding: 0px 10px;
+    }
+    footer .main .logo{
+        width: 50%;
+    }
+    footer .main ul{
+        margin-top: 5%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    /* .content .first .image .main-match .main-box p{
+        font-size: 1.6vw;
+    } */
+    header{
+        width: 100%;
+        padding: 0px 10px;
+    }
+    header nav{
+        width: 100%;
+    }
+    header nav .logo{
+        width: 30%;
+    }
+    header nav .bars{
+        display: block;
+    }
+    header nav .bars i{
+        font-size: 30px;
+    }
+    header nav .menu{
+        z-index: 100;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: #000000;
+        position: fixed;
+        padding: 0%;
+        transition: all 0.1s;
+        overflow-x: hidden;
+    }
+    header nav .menu li{
+        display: block;
+        padding: 10%;
+        width: 100%;
+        border-top: 1px solid #3366;
+    }
+    header nav .menu .line{
+        display: none;
+    }
+    header nav .close{
+        top: 10%;
+        right: 0%;
+        z-index: 200;
+    }
+    header nav .btn{
+        background-color: antiquewhite;
+        width: 100%;
+        top: 100%;
+        left: 0%;
+        padding: 15px 20%;
+        position: absolute;
+        display: inline-block;
+    }
+    header nav .btn > div{
+        width: 47%;
+        margin: 0px 2px;
+        float: left;
+        font-size: 15px;
+        padding: 12px;
+        text-align: center;
+    }
+    .content{
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .content .first{
+        margin-top: 10%;
+    }
+    .content h1{
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    .content h2{
+        padding: 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .content .adr{
+        width: 100%;
+    }
+
+    footer{
+        width: 100%;
+    }
+    footer .main{
+        width: 100%;
+        padding: 0px 10px;
+    }
+    footer .main .logo{
+        width: 30%;
+    }
+    footer .main ul{
+        margin-top: 5%;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1280px){
+    /* .content .first .image .main-match .main-box p{
+        font-size: 1.5vw;
+    } */
+    header,
+    .content,
+    footer{
+        padding: 0px 10px;
+    }
+
+    header nav .menu li{
+        font-size: 13px;
+    }
+
+    header nav .btn > div{
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+}
